@@ -69,9 +69,9 @@ real memory. It remembers my notes and my opinions, and pushes back instead of j
 Most of what I build is private. Two projects have eaten most of my year. I'll keep them nameless, but
 here's the shape of them.
 
-<img width="100%" src="https://raw.githubusercontent.com/peetwan/peetwan/main/assets/card-1.svg" alt="A booking platform built around LINE — private, multi-tenant, real-time. A multi-tenant platform where customers book and pay without leaving the app; each shop gets its own page, calendar, dashboard, and analytics off one shared backend. The hard parts stay private." />
+<img width="100%" src="https://raw.githubusercontent.com/peetwan/peetwan/main/assets/card-1.svg?v=2" alt="A booking platform built around LINE — private, multi-tenant, real-time. A multi-tenant platform where customers book and pay without leaving the app; each shop gets its own page, calendar, dashboard, and analytics off one shared backend. The hard parts stay private." />
 
-<img width="100%" src="https://raw.githubusercontent.com/peetwan/peetwan/main/assets/card-2.svg" alt="An automated trading system — private, automated, real-time, strategy classified. A multi-asset setup on a perps DEX: a real-time fleet of services (execution engine, analytics, bots, dashboards). The strategy and signals stay in the vault." />
+<img width="100%" src="https://raw.githubusercontent.com/peetwan/peetwan/main/assets/card-2.svg?v=2" alt="An automated trading system — private, automated, real-time, strategy classified. A multi-asset setup on a perps DEX: a real-time fleet of services (execution engine, analytics, bots, dashboards). The strategy and signals stay in the vault." />
 
 </td></tr>
 </table>
