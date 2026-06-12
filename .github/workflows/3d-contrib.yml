@@ -20,7 +20,6 @@ jobs:
           # Uses the default token (public data). Add a personal access token as the
           # secret GH_TOKEN (read:user) to include PRIVATE contributions in the graph.
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN || github.token }}
-        with:
           USERNAME: ${{ github.repository_owner }}
 
       - name: Commit & push if changed
