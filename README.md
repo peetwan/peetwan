@@ -73,9 +73,6 @@ here's the shape of them.
 
 <img width="100%" src="https://raw.githubusercontent.com/peetwan/peetwan/main/assets/card-2.svg?v=2" alt="An automated trading system — private, automated, real-time, strategy classified. A multi-asset setup on a perps DEX: a real-time fleet of services (execution engine, analytics, bots, dashboards). The strategy and signals stay in the vault." />
 
-</td></tr>
-</table>
-
 Past those two there's a stack of smaller private tools I built just to stop something from annoying me
 — an agent that does my morning market reading and drops it into Notion, a few automations, a hackathon
 build that walks people through a scary, paperwork-heavy moment in plain language. Nothing fancy, all
