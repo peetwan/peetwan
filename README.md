@@ -101,7 +101,7 @@ keep things on-device when I can.
 ## Activity
 
 <div align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/peetwan/peetwan/main/profile-3d-contrib/profile-green-animate.svg" alt="3D contribution graph — auto-updated daily" />
+  <img width="100%" src="https://raw.githubusercontent.com/peetwan/peetwan/main/profile-3d-contrib/profile-green-animate.svg?v=3" alt="3D contribution graph — auto-updated daily" />
   <br/>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=peetwan&show_icons=true&hide_border=true&hide_title=true&count_private=true&include_all_commits=true&theme=tokyonight&icon_color=3FB950&text_color=8b949e&bg_color=00000000" />
