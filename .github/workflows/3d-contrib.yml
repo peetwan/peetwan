@@ -22,6 +22,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN || github.token }}
           USERNAME: ${{ github.repository_owner }}
 
+      - name: Make the white background transparent (blend with GitHub theme)
+        run: |
+          for f in profile-3d-contrib/*.svg; do
+            sed -i -E 's|<rect x="0" y="0" width="[0-9]+" height="[0-9]+" fill="#ffffff"></rect>||g' "$f"
+          done
+
       - name: Commit & push if changed
         run: |
           git config user.name "github-actions[bot]"
