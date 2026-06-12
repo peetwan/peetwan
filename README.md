@@ -1,9 +1,9 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:58A6FF,100:A371F7&text=Peet%20Wannasarnmetha&fontSize=44&fontColor=ffffff&fontAlignY=36&desc=Super%20AI%20Engineer%20SS06%20%7C%20Hackathon%20builder%20from%20Thailand&descSize=17&descAlignY=58&animation=fadeIn" alt="Peet Wannasarnmetha" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:58A6FF,100:3FB950&text=Peet%20Wannasarnmetha&fontSize=44&fontColor=ffffff&fontAlignY=36&desc=Super%20AI%20Engineer%20SS06%20%7C%20Hackathon%20builder%20from%20Thailand&descSize=17&descAlignY=58&animation=fadeIn" alt="Peet Wannasarnmetha" />
 
 <div align="center">
 
 <a href="https://github.com/peetwan">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=21&duration=2600&pause=900&center=true&vCenter=true&width=640&height=42&color=58A6FF&lines=Super+AI+Engineer+SS06;Hackathon+builder+from+Thailand;I+learn+by+shipping;AI+is+my+study+partner" alt="about me" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=21&duration=2600&pause=900&center=true&vCenter=true&width=640&height=42&color=3FB950&lines=Super+AI+Engineer+SS06;Hackathon+builder+from+Thailand;I+learn+by+shipping;AI+is+my+study+partner" alt="about me" />
 </a>
 
 <p>
@@ -101,11 +101,11 @@ keep things on-device when I can.
 ## Activity
 
 <div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=peetwan&bg_color=00000000&color=58A6FF&line=A371F7&point=58A6FF&area=true&hide_border=true&custom_title=Contribution%20graph" alt="contribution graph" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=peetwan&bg_color=00000000&color=3FB950&line=3FB950&point=2DD4BF&area=true&hide_border=true&custom_title=Contribution%20graph" alt="contribution graph" />
   <br/>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=peetwan&show_icons=true&hide_border=true&hide_title=true&count_private=true&include_all_commits=true&theme=tokyonight&icon_color=58A6FF&text_color=8b949e&bg_color=00000000" />
-    <img height="140" src="https://github-readme-stats.vercel.app/api?username=peetwan&show_icons=true&hide_border=true&hide_title=true&count_private=true&include_all_commits=true&icon_color=2563eb&title_color=2563eb&text_color=4b5563&bg_color=00000000" alt="GitHub stats" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=peetwan&show_icons=true&hide_border=true&hide_title=true&count_private=true&include_all_commits=true&theme=tokyonight&icon_color=3FB950&text_color=8b949e&bg_color=00000000" />
+    <img height="140" src="https://github-readme-stats.vercel.app/api?username=peetwan&show_icons=true&hide_border=true&hide_title=true&count_private=true&include_all_commits=true&icon_color=2DA44E&title_color=2DA44E&text_color=4b5563&bg_color=00000000" alt="GitHub stats" />
   </picture>
 </div>
 
@@ -114,4 +114,4 @@ keep things on-device when I can.
 I'm on [GitHub](https://github.com/peetwan), based in Thailand, and always up for building something
 weird with AI and hardware.
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=0:A371F7,100:58A6FF" alt="" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=0:3FB950,100:58A6FF" alt="" />
