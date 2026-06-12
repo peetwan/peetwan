@@ -17,26 +17,27 @@
 
 ## 👋 About me
 
-I'm a pretty normal person who got into `Super AI Engineer (SS06)` — and that one door opened
-into a whole run of hackathons. I don't come from a deep ML/engineering background; I have the
-basics and a stubborn habit of learning. My method is simple: pick something I don't know how to
-build yet, then build it anyway — asking questions, reading, and using AI as my study partner and
-pair-builder until the thing actually works.
+I'm a pretty normal person who got into `Super AI Engineer (SS06)` — and that one door opened into a
+whole run of hackathons. I don't come from a deep ML/engineering background; I have the basics and a
+stubborn habit of learning. My method is simple: pick something I don't know how to build yet, then
+build it anyway — asking questions, reading, and using AI as my study partner and pair-builder until
+the thing actually works.
 
-So everything below is less "look how expert I am" and more "look what you can ship when you stay
-curious and aren't afraid to learn in public." 🚀
+Most of what I build day-to-day lives in private repos — real products and client work. The
+open-source projects below are the slice I *can* show; the section after them is the shape of
+everything else. 🚀
 
 ---
 
-## 🛠️ Things I've built
+## 🛠️ Things I've built (open-source)
 
 > Each of these started as something I didn't fully know how to do — then learned by making it.
 
 ### 🧭 [Hidden Siam](https://github.com/peetwan/travel_hack_04) &nbsp;·&nbsp; [live demo →](https://travelhack04-copy-3-production.up.railway.app)
-A multi-agent AI travel planner for Thailand, built against overtourism. A *Destination Scout*
-helps first-time travellers pick a trip from style-only intent, then 8 specialised agents argue,
-filter, and route across 91 hand-curated gems + 89 wellness venues with live Thai-web search — and
-you watch them work in real time.
+A multi-agent AI travel planner for Thailand, built against overtourism. A *Destination Scout* helps
+first-time travellers pick a trip from style-only intent, then 8 specialised agents argue, filter,
+and route across 91 hand-curated gems + 89 wellness venues with live Thai-web search — and you watch
+them work in real time.
 `Next.js 16` · `Vercel AI SDK 6` · multi-agent orchestration
 
 ### 🗜️ [autofollowdown](https://github.com/peetwan/autofollowdown)
@@ -55,15 +56,15 @@ learning it.
 
 ### 🔌 [senseflow](https://github.com/peetwan/senseflow) &nbsp;&&nbsp; [gutmagotchi](https://github.com/peetwan/gutmagotchi-stress-companion)
 Two edge-AI wellness gadgets on the Arduino `UNO Q`. `senseflow` turns your focus & posture into a
-live virtual pet (firmware → Python daemon → dashboard, 110-test suite). `gutmagotchi` detects
-stress contactlessly with on-device streaming ML and mirrors it into a Tamagotchi's mood — raw
-audio never leaves the board.
+live virtual pet (firmware → Python daemon → dashboard, 110-test suite). `gutmagotchi` detects stress
+contactlessly with on-device streaming ML and mirrors it into a Tamagotchi's mood — raw audio never
+leaves the board.
 `C++ / Arduino` · `Python` · `River` (online ML) · `BLE`
 
 ### 🧠 [agOS](https://github.com/peetwan/agOS)
-An "agentic OS" that gives the Gemini CLI + Obsidian a permanent memory, a knowledge graph built
-from `[[wikilinks]]`, and a logic-first filter that audits answers against my own convictions
-instead of just agreeing with me.
+An "agentic OS" that gives the Gemini CLI + Obsidian a permanent memory, a knowledge graph built from
+`[[wikilinks]]`, and a logic-first filter that audits answers against my own convictions instead of
+just agreeing with me.
 `Gemini CLI` · `Obsidian` · personal-knowledge tooling
 
 <details>
@@ -80,6 +81,23 @@ instead of just agreeing with me.
 
 ---
 
+## 🏗️ What I'm building now (mostly private)
+
+> The open-source repos above are what I *can* show. Most of my actual building happens in private —
+> real products and client work. I can't show the products, but here's the shape of it 👇
+
+| Focus area | What I build there |
+|---|---|
+| 💹 &nbsp;Fintech & trading | Crypto / DeFi portfolio & basket tools, trading dashboards, market-research agents, and signal / prediction experiments. |
+| 💬 &nbsp;LINE / LIFF products | Mini-apps & bots for the Thai market — queue & ordering systems and chat-driven workflows wired into AI. |
+| 🛍️ &nbsp;Web & e-commerce | Studio and storefront sites, product catalogs, and automation that turns chat messages into structured orders. |
+| 🤖 &nbsp;AI agents & automation | Research agents, CLI / Telegram assistants, and glue that syncs tools (Notion, dashboards) and refreshes data on a schedule. |
+| ❤️ &nbsp;Social-impact builds | Hackathon prototypes aimed at real problems for real people. |
+
+<sub>🌙 &nbsp;20+ private repos — this is where most of the late nights actually go.</sub>
+
+---
+
 ## 🧭 How I learn & build
 
 - 🎯 `Learn by shipping` — if I don't know it yet, I build the thing until I do.
@@ -93,11 +111,6 @@ instead of just agreeing with me.
 `Python` &nbsp; `TypeScript / Next.js` &nbsp; `C++ / Arduino` &nbsp; `LLMs · multi-agent · RAG`
 &nbsp; `Vercel AI SDK` &nbsp; `PyTorch` &nbsp; `DuckDB` &nbsp; `Edge AI · Jetson · BLE`
 &nbsp; `LINE / LIFF` &nbsp; `Gemini CLI · Claude Code · Obsidian`
-
-## 🔒 Beyond GitHub
-
-There's a larger pile of private & client work — `fintech & trading`, `LINE/LIFF products`, and
-`AI tooling` — that lives off the public timeline.
 
 ## 📫 Connect
 
