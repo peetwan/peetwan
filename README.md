@@ -1,56 +1,55 @@
-<h1 align="center">Hi, I'm Peet 👋</h1>
+<div align="center">
 
-<p align="center">
-  <code>Chanut "Peet" Wannasarnmetha</code> · AI engineer & builder · Thailand 🇹🇭 · UTC+7
+# Peet Wannasarnmetha
+
+<a href="https://github.com/peetwan">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=21&duration=2600&pause=900&center=true&vCenter=true&width=620&height=42&color=58A6FF&lines=Multi-agent+AI+systems;ML+and+MLOps+that+is+real+and+measured;Edge-AI+and+IoT+on+Arduino+and+Jetson;Building+products+from+Thailand" alt="what I work on" />
+</a>
+
+<p>
+  AI engineer & builder based in Thailand 🇹🇭 &nbsp;·&nbsp; UTC+7<br/>
+  <sub>I ship things that are <em>real, measured, and on-device</em> — simple over clever, every layer understood.</sub>
 </p>
 
-<p align="center">
-  Multi-agent AI systems, ML / MLOps, and edge-AI devices.<br/>
-  I ship things that are <em>real, measured, and on-device</em> — simple over clever, every layer understood.
-</p>
+</div>
 
----
+<br/>
 
-## 🧠 What I work on
+### 🚀 Selected work
 
-- 🤖 `Multi-agent AI & LLM systems` — orchestrating specialised agents that plan, argue, and verify.
-- 🔬 `ML engineering & MLOps` — model compression, object detection, and benchmarks measured on real hardware.
-- 🔌 `Edge AI & IoT` — Arduino `UNO Q` / Jetson devices with on-device ML and privacy by design.
-- 💬 `Products for Thailand` — `LINE` / `LIFF` apps & bots, and tools aimed at real local problems.
+🧭 &nbsp;[`Hidden Siam`](https://github.com/peetwan/travel_hack_04) — an 8-agent AI travel planner for Thailand, built against overtourism &nbsp;·&nbsp; [live demo →](https://travelhack04-copy-3-production.up.railway.app)
 
-## 🚀 Featured work
+🗜️ &nbsp;[`autofollowdown`](https://github.com/peetwan/autofollowdown) — one-API model compression (quantize · prune · distill) with a real, measured benchmark — no mocks
 
-| Project | What it is |
-|---|---|
-| 🧭 [Hidden Siam](https://github.com/peetwan/travel_hack_04) | An 8-agent AI travel planner for Thailand, built against overtourism — agents argue, filter, and route across 91 hand-curated gems with live Thai-web search. `Next.js` · [live demo](https://travelhack04-copy-3-production.up.railway.app). |
-| 🗜️ [autofollowdown](https://github.com/peetwan/autofollowdown) | A one-API toolkit for compressing AI models — `quantization` · `pruning` · `distillation` — with a real benchmark that measures size, latency, and accuracy. No mocks; every number is measured. |
-| 🧾 [fahmai-enterprise-data-agent](https://github.com/peetwan/fahmai-enterprise-data-agent) | A two-tier enterprise-data agent: a deterministic SQL skill router with a `plan → execute → verify` ReAct fallback. RBAC + prompt-injection defense, SQLite/DuckDB, `Qwen3.6-27B` serving. |
-| 🔌 [senseflow](https://github.com/peetwan/senseflow) · [gutmagotchi](https://github.com/peetwan/gutmagotchi-stress-companion) | Edge-AI wellness devices on `Arduino UNO Q` — a focus/posture companion and a contactless stress detector (on-device streaming ML), each driving a live virtual pet. |
-| 🧠 [agOS](https://github.com/peetwan/agOS) | An "agentic OS" that gives the Gemini CLI + Obsidian permanent memory, a knowledge graph from `[[wikilinks]]`, and a logic-first conviction filter. |
+🧾 &nbsp;[`fahmai-enterprise-data-agent`](https://github.com/peetwan/fahmai-enterprise-data-agent) — enterprise-data agent: SQL skill-router → `plan → execute → verify` fallback, RBAC + prompt-injection defense
 
-## 🧭 How I work
+🔌 &nbsp;[`senseflow`](https://github.com/peetwan/senseflow) &nbsp;·&nbsp; [`gutmagotchi`](https://github.com/peetwan/gutmagotchi-stress-companion) — edge-AI wellness devices on Arduino `UNO Q` with on-device streaming ML
 
-- `KISS` — simple and lightweight; I don't over-engineer.
-- `Real, not mocked` — benchmarks run on real models and real hardware, every number measured.
-- `Security & privacy first` — local-first, on-device, secrets stay secret.
-- `Learn every layer` — I document the *why* (ELI5) and keep study notes, then ship at hackathon pace.
+🧠 &nbsp;[`agOS`](https://github.com/peetwan/agOS) — an agentic OS giving the Gemini CLI + Obsidian permanent memory and a logic-first conviction filter
 
-## 🧰 Toolbox
+<br/>
 
-`Python` · `PyTorch` · `TypeScript / Next.js` · `C++ / Arduino` ·
-`Multi-agent · LLMs · RAG` · `Vercel AI SDK · Gemini · Claude` ·
-`DuckDB / SQLite` · `Edge AI · Jetson · River · BLE` · `LINE / LIFF` · `Obsidian`
+### 🧭 How I build
 
-## 📫 Connect
+`KISS` — simple, never over-engineered &nbsp;•&nbsp; `Real, not mocked` — measured on real models & hardware &nbsp;•&nbsp; `Privacy-first` — local, on-device &nbsp;•&nbsp; `Learn every layer`, then ship at hackathon pace
 
-- 💻 GitHub — [@peetwan](https://github.com/peetwan)
-- 🌏 Based in Thailand · open to collaborating on `AI + hardware`
+### 🧰 Stack
 
-<sub>⚡ I like to understand every layer — from the SQL query plan to the STM32 register.</sub>
+`Python` &nbsp;`PyTorch` &nbsp;`TypeScript / Next.js` &nbsp;`C++ / Arduino` &nbsp;`Multi-agent · LLMs · RAG` &nbsp;`Vercel AI SDK` &nbsp;`DuckDB` &nbsp;`Edge AI · Jetson · BLE` &nbsp;`LINE / LIFF` &nbsp;`Obsidian`
 
----
+### 🔒 Beyond GitHub
 
-<p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=peetwan&show_icons=true&hide_border=true&count_private=true&include_all_commits=true" alt="Peet's GitHub stats" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=peetwan&layout=compact&hide_border=true&hide=html&langs_count=8" alt="Top languages" />
-</p>
+A larger body of private & client work — `fintech & trading`, `LINE/LIFF products`, and `AI tooling` — that I can't show here.
+
+### 📫 Connect
+
+[`GitHub`](https://github.com/peetwan) &nbsp;·&nbsp; based in Thailand &nbsp;·&nbsp; open to collaborating on `AI + hardware`
+
+<br/>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=peetwan&show_icons=true&hide_border=true&hide_title=true&count_private=true&include_all_commits=true&theme=tokyonight&icon_color=58A6FF&text_color=8b949e&bg_color=00000000" />
+    <img height="140" src="https://github-readme-stats.vercel.app/api?username=peetwan&show_icons=true&hide_border=true&hide_title=true&count_private=true&include_all_commits=true&icon_color=2563eb&title_color=2563eb&text_color=4b5563&bg_color=00000000" alt="Peet's GitHub activity" />
+  </picture>
+</div>
