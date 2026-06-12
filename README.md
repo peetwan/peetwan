@@ -105,7 +105,12 @@ keep things on-device when I can.
   <br/>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=peetwan&show_icons=true&hide_border=true&hide_title=true&count_private=true&include_all_commits=true&theme=tokyonight&icon_color=3FB950&text_color=8b949e&bg_color=00000000" />
-    <img height="140" src="https://github-readme-stats.vercel.app/api?username=peetwan&show_icons=true&hide_border=true&hide_title=true&count_private=true&include_all_commits=true&icon_color=2DA44E&title_color=2DA44E&text_color=4b5563&bg_color=00000000" alt="GitHub stats" />
+    <img height="150" src="https://github-readme-stats.vercel.app/api?username=peetwan&show_icons=true&hide_border=true&hide_title=true&count_private=true&include_all_commits=true&icon_color=2DA44E&title_color=2DA44E&text_color=4b5563&bg_color=00000000" alt="GitHub stats" />
+  </picture>
+  &nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=peetwan&hide_border=true&background=00000000&ring=3FB950&fire=3FB950&currStreakLabel=3FB950&currStreakNum=e6edf3&sideNums=e6edf3&sideLabels=8b949e&dates=8b949e&stroke=30363d" />
+    <img height="150" src="https://streak-stats.demolab.com/?user=peetwan&hide_border=true&background=00000000&ring=2DA44E&fire=2DA44E&currStreakLabel=2DA44E&currStreakNum=24292f&sideNums=24292f&sideLabels=57606a&dates=57606a&stroke=d0d7de" alt="contribution streak" />
   </picture>
 </div>
 
