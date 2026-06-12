@@ -66,28 +66,28 @@ real memory. It remembers my notes and my opinions, and pushes back instead of j
 
 ## The private stuff (where most of my time goes)
 
-Most of what I build is private. Two of them have eaten most of my year:
+Most of what I build is private. Two projects have eaten most of my year. I'll keep them nameless, but
+here's the shape of them:
 
-### 🔒 QueueSystem — a LINE-first booking platform
+### 🔒 A booking platform built around LINE
 
-This is the one I've poured the most hours into. It's a multi-tenant booking platform that lives
-inside LINE: a customer books and pays without ever leaving the app, and every shop gets its own
-branded page, calendar, dashboard, and analytics off one shared backend. The fun is all in the
-unglamorous parts — walling each shop's data off from the rest, holding a time slot while someone's
-mid-checkout, checking payment slips, keeping things sane when a background job dies and has to retry.
-Next.js and Supabase underneath, with the LINE side bolted on top. I'm keeping the deeper product
-details to myself, though — it's a real thing I'm trying to take somewhere.
+The one I've poured the most hours into. A multi-tenant platform where a customer can book and pay
+without ever leaving the app, and every shop gets its own branded page, calendar, dashboard, and
+analytics off one shared backend. The fun is all in the unglamorous parts — walling each shop's data
+off from the rest, holding a slot while someone's mid-checkout, checking payments, keeping things sane
+when a background job dies and has to retry. The product details I'm keeping to myself; it's a real
+thing I'm trying to take somewhere.
 
-### 🔒 Basket Portfolio — an automated trading system
+### 🔒 An automated trading system
 
 A multi-asset setup I run on a perps DEX. It's a small fleet of services that have to stay perfectly
-in sync — a trading engine, an analytics piece watching the market, bots that act on it, and live
+in sync — an execution engine, an analytics piece watching the market, bots that act on it, and live
 dashboards over the top, all real-time and deployed. I'll happily talk shop about the engineering: a
 pile of Python services and websockets not stepping on each other is harder than it sounds. The
-strategy and the signals behind it, though, stay in the vault — that part's the whole point, and it's
-mine to keep. 🤐
+strategy and the signals behind it stay in the vault — that part's the whole point, and it's mine to
+keep. 🤐
 
-Past those two there's a stack of smaller private tools I made just to stop something from annoying me
+Past those two there's a stack of smaller private tools I built just to stop something from annoying me
 — an agent that does my morning market reading and drops it into Notion, a few automations, a hackathon
 build that walks people through a scary, paperwork-heavy moment in plain language. Nothing fancy, all
 useful. Happy to talk through any of it; just don't ask me for the trading signals. 😄
