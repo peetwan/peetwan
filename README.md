@@ -7,156 +7,111 @@
 </a>
 
 <p>
-  🇹🇭 &nbsp;A curious builder from Thailand &nbsp;·&nbsp; UTC+7<br/>
-  <sub>Not a formal engineer — just someone who learns fast and ships real things.</sub>
+  🇹🇭 &nbsp;Builder from Thailand &nbsp;·&nbsp; UTC+7<br/>
+  <sub>Not a trained engineer — I just like figuring things out and making them work.</sub>
 </p>
 
 </div>
 
 ---
 
-## 👋 About me
+## About me
 
-I'm a pretty normal person who got into `Super AI Engineer (SS06)` — and that one door opened into a
-whole run of hackathons. I don't come from a deep ML/engineering background; I have the basics and a
-stubborn habit of learning. My method is simple: pick something I don't know how to build yet, then
-build it anyway — asking questions, reading, and using AI as my study partner and pair-builder until
-the thing actually works.
+I got into Super AI Engineer (SS06), and that pulled me into a long run of hackathons. I'm not a
+trained ML person. I know the basics and work out the rest as I go, usually with an AI next to me to
+explain the parts I'm missing and help me build.
 
-Most of what I build day-to-day lives in private repos — real products and client work. The
-open-source projects below are the slice I *can* show; the section after them is the shape of
-everything else. 🚀
+Mostly I make things because something was bugging me and I wanted it to stop. A lot of that stays
+private — small tools for myself, experiments I'm still poking at. The public repos below are just
+the parts I'm happy to show.
 
----
+## What I've built (the public stuff)
 
-## 🛠️ Things I've built (open-source)
+### [Hidden Siam](https://github.com/peetwan/travel_hack_04) · [live demo](https://travelhack04-copy-3-production.up.railway.app)
+I was tired of generic "top 10 places" travel lists, so I made a planner where eight AI agents do the
+arguing for you. You give it the kind of trip you want, and they go back and forth over ~91 spots and
+work out a route while you watch. Built it for a hackathon. *Next.js, Vercel AI SDK.*
 
-> Each of these started as something I didn't fully know how to do — then learned by making it.
+### [autofollowdown](https://github.com/peetwan/autofollowdown)
+I kept reading about model compression and wanted to actually see it happen instead of nodding along.
+So this shrinks a model — quantize, prune, distill — and measures what you really lose in size, speed,
+and accuracy. Nothing faked; it changes real weights and reports real numbers. *Python.*
 
-### 🧭 [Hidden Siam](https://github.com/peetwan/travel_hack_04) &nbsp;·&nbsp; [live demo →](https://travelhack04-copy-3-production.up.railway.app)
-A multi-agent AI travel planner for Thailand, built against overtourism. A *Destination Scout* helps
-first-time travellers pick a trip from style-only intent, then 8 specialised agents argue, filter,
-and route across 91 hand-curated gems + 89 wellness venues with live Thai-web search — and you watch
-them work in real time.
-`Next.js 16` · `Vercel AI SDK 6` · multi-agent orchestration
+### [fahmai-enterprise-data-agent](https://github.com/peetwan/fahmai-enterprise-data-agent)
+An agent that answers questions over a messy company database. The common questions go through
+hand-written SQL; the weird ones go to a plan-then-check agent. It has access control and some
+guardrails against prompt injection. I wrote myself a whole study course while figuring it out.
+*Python, SQLite/DuckDB, Qwen on HPC.*
 
-### 🗜️ [autofollowdown](https://github.com/peetwan/autofollowdown)
-A one-API toolkit for shrinking AI models — `quantization` · `pruning` · `knowledge distillation` —
-with a *real* benchmark that measures the actual hit to size, latency, and accuracy. No mocks: every
-operation changes real weights, every number is measured. I built it mostly to understand how model
-compression really works.
-`Python` · CI-tested · MIT
+### [senseflow](https://github.com/peetwan/senseflow) & [gutmagotchi](https://github.com/peetwan/gutmagotchi-stress-companion)
+Two little Arduino UNO Q gadgets. One watches your posture and focus and turns it into a desk pet; the
+other reads your stress without touching you and feeds it to a Tamagotchi-style cat. The audio side
+runs on the board on purpose — I didn't want anything leaving the device. *C++, Python, BLE.*
 
-### 🧾 [fahmai-enterprise-data-agent](https://github.com/peetwan/fahmai-enterprise-data-agent)
-An agent that answers questions over a messy enterprise database. A deterministic SQL skill-router
-handles the known shapes, and a `plan → execute → verify` ReAct agent handles the rest — with
-role-based access control + prompt-injection defense, and a full EN/TH study course I wrote while
-learning it.
-`Python` · `SQLite / DuckDB` · `Qwen3.6-27B` on HPC
-
-### 🔌 [senseflow](https://github.com/peetwan/senseflow) &nbsp;&&nbsp; [gutmagotchi](https://github.com/peetwan/gutmagotchi-stress-companion)
-Two edge-AI wellness gadgets on the Arduino `UNO Q`. `senseflow` turns your focus & posture into a
-live virtual pet (firmware → Python daemon → dashboard, 110-test suite). `gutmagotchi` detects stress
-contactlessly with on-device streaming ML and mirrors it into a Tamagotchi's mood — raw audio never
-leaves the board.
-`C++ / Arduino` · `Python` · `River` (online ML) · `BLE`
-
-### 🧠 [agOS](https://github.com/peetwan/agOS)
-An "agentic OS" that gives the Gemini CLI + Obsidian a permanent memory, a knowledge graph built from
-`[[wikilinks]]`, and a logic-first filter that audits answers against my own convictions instead of
-just agreeing with me.
-`Gemini CLI` · `Obsidian` · personal-knowledge tooling
+### [agOS](https://github.com/peetwan/agOS)
+I got sick of re-explaining myself to AI tools every session, so I gave the Gemini CLI plus Obsidian a
+real memory. It remembers my notes and my opinions, and pushes back instead of just agreeing with me.
 
 <details>
-<summary>📦 &nbsp;More experiments — Kaggle templates, object detection, Jetson edge research…</summary>
+<summary>a few more — Kaggle templates, object detection, Jetson edge notes…</summary>
 
 <br/>
 
-- [`5DomainsHackathon_Pangpuriye`](https://github.com/peetwan/5DomainsHackathon_Pangpuriye) — Super AI Engineer exam prep: 5 Kaggle problems turned into reusable, beginner-friendly notebook templates (Thai comments throughout).
-- [`PangpuriyeT`](https://github.com/peetwan/PangpuriyeT) — an object-detection sandbox (`uv` + PyTorch + torchvision, Faster R-CNN + GradCAM) for learning clean experiment structure.
-- [`saie2026-handbook`](https://github.com/peetwan/saie2026-handbook) — a team handbook for Jetson Nano FPS / FPS-per-Watt edge research.
-- [`FiarDesignOrderBot`](https://github.com/peetwan/FiarDesignOrderBot) — a LINE bot that reads group-chat orders with Gemini and files them into a CMS.
+- [5DomainsHackathon_Pangpuriye](https://github.com/peetwan/5DomainsHackathon_Pangpuriye) — Super AI Engineer prep: 5 Kaggle problems turned into reusable notebook templates, all commented in Thai.
+- [PangpuriyeT](https://github.com/peetwan/PangpuriyeT) — an object-detection sandbox (PyTorch, Faster R-CNN, GradCAM) I used to learn how to keep experiments clean.
+- [saie2026-handbook](https://github.com/peetwan/saie2026-handbook) — team notes on Jetson Nano FPS / FPS-per-watt.
+- [FiarDesignOrderBot](https://github.com/peetwan/FiarDesignOrderBot) — a LINE bot that reads orders out of a group chat and files them.
 
 </details>
 
----
+## Stuff I make for myself
 
-## 🏗️ What I'm building now (mostly private)
+Most of my repos are private, and they're not products — just tools I hacked together because
+something annoyed me. A few, with the details left off:
 
-> The open-source repos above are what I *can* show. Most of my actual building happens in private —
-> real products and client work. I can't show the products, but here's the shape of it 👇
+- I trade a bit of crypto, and checking where I stood meant flipping through a pile of tabs. So I built
+  a dashboard that pulls it into one screen and flags what I care about. Now it's one glance.
+- My mornings kept vanishing into the same market-and-web reading, then copying it into Notion. I
+  handed that to a couple of agents on a timer. They do the boring part; I read the summary.
+- A shop near me was taking orders by hand in a LINE chat and losing track of them, so I wrote a bot
+  that reads the messages and turns them into actual orders. A lot fewer "wait, what did they want?"
+- One hackathon weekend I built something to help people get through a scary, paperwork-heavy moment in
+  plain language. Only a prototype, but it worked, and that one stuck with me.
 
-| Focus area | What I build there |
-|---|---|
-| 💹 &nbsp;Fintech & trading | Crypto / DeFi portfolio & basket tools, trading dashboards, market-research agents, and signal / prediction experiments. |
-| 💬 &nbsp;LINE / LIFF products | Mini-apps & bots for the Thai market — queue & ordering systems and chat-driven workflows wired into AI. |
-| 🛍️ &nbsp;Web & e-commerce | Studio and storefront sites, product catalogs, and automation that turns chat messages into structured orders. |
-| 🤖 &nbsp;AI agents & automation | Research agents, CLI / Telegram assistants, and glue that syncs tools (Notion, dashboards) and refreshes data on a schedule. |
-| ❤️ &nbsp;Social-impact builds | Hackathon prototypes aimed at real problems for real people. |
+I keep the hard numbers off here — some of it isn't only mine to share, and honestly I built most of
+it for me, not for a pitch deck. Happy to talk through any of it.
 
-<sub>🌙 &nbsp;20+ private repos — this is where most of the late nights actually go.</sub>
+## How I work
 
----
+I learn by building. If I don't get how something works, I start making it and figure it out on the
+way — with an AI explaining the bits I'm missing, then I write it back in my own words so it sticks. I
+keep things simple, I'd rather measure something on real hardware than trust a number I skimmed, and I
+keep things on-device when I can.
 
-## 🗂️ A few case studies (anonymized)
-
-> Real private / client work — names, brands, and products removed; the shape kept.
-
-### 💬 &nbsp;LINE order automation · a local retail business
-`Problem` &nbsp; orders were taken by hand in LINE group chats — slow, easy to miss, re-typed by staff.  
-`Approach` &nbsp; an LLM-powered LINE bot that parses free-text messages into structured orders and files them into a CMS.  
-`Outcome` &nbsp; order capture runs end-to-end; staff stopped copy-pasting and chasing missing details.
-
-### 💹 &nbsp;Crypto / DeFi portfolio cockpit · a trader
-`Problem` &nbsp; tracking a basket of positions across venues was manual and reactive.  
-`Approach` &nbsp; a dashboard that pulls live positions and surfaces exposure, signals, and risk in one place.  
-`Outcome` &nbsp; one glance instead of ten tabs — decisions got faster and calmer.
-
-### 🤖 &nbsp;Always-on research agent · my own workflow
-`Problem` &nbsp; daily market + web research and keeping notes/dashboards in sync ate the morning.  
-`Approach` &nbsp; AI research agents plus scheduled "glue" that refreshes data and syncs it into Notion / dashboards.  
-`Outcome` &nbsp; the research routine now runs itself and lands in one place.
-
-### ❤️ &nbsp;Weekend social-impact build · a hackathon
-`Problem` &nbsp; people going through a hard life transition face a scary, jargon-heavy process alone.  
-`Approach` &nbsp; an AI assistant that explains the options in plain language and auto-generates the documents they need.  
-`Outcome` &nbsp; a working prototype, demoed at the hackathon.
-
-<sub>📈 &nbsp;Hard numbers left out on purpose to protect clients — happy to walk through specifics in a conversation.</sub>
-
----
-
-## 🧭 How I learn & build
-
-- 🎯 `Learn by shipping` — if I don't know it yet, I build the thing until I do.
-- 🤖 `AI as my study partner` — I ask, learn the *why*, then write it back as ELI5 notes so it sticks.
-- 🪶 `KISS` — simple and lightweight beats clever and fragile.
-- 🔬 `Real, not mocked` — I'd rather measure it on real hardware than hand-wave a number.
-- 🔒 `Privacy-first` — local & on-device wherever I can.
-
-## 🧰 Tools I reach for
+## Tools
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=py,ts,nextjs,react,nodejs,cpp,arduino,pytorch,tailwind,vercel,git,obsidian&perline=12" alt="tech stack" />
+  <img src="https://skillicons.dev/icons?i=py,ts,nextjs,react,nodejs,cpp,arduino,pytorch,tailwind,vercel,git,obsidian&perline=12" alt="tools I use" />
 </div>
 
 <p align="center">
-  <sub><code>LLMs · multi-agent · RAG</code> &nbsp;·&nbsp; <code>Vercel AI SDK</code> &nbsp;·&nbsp; <code>DuckDB</code> &nbsp;·&nbsp; <code>Edge AI · Jetson · BLE</code> &nbsp;·&nbsp; <code>LINE / LIFF</code> &nbsp;·&nbsp; <code>Gemini CLI · Claude Code</code></sub>
+  <sub>also: <code>LLMs / agents / RAG</code> · <code>Vercel AI SDK</code> · <code>DuckDB</code> · <code>edge AI · Jetson · BLE</code> · <code>LINE / LIFF</code> · <code>Gemini CLI · Claude Code</code></sub>
 </p>
 
-## 📊 A bit of activity
+## Activity
 
 <div align="center">
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=peetwan&bg_color=00000000&color=58A6FF&line=A371F7&point=58A6FF&area=true&hide_border=true&custom_title=Contribution%20graph" alt="contribution graph" />
   <br/>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=peetwan&show_icons=true&hide_border=true&hide_title=true&count_private=true&include_all_commits=true&theme=tokyonight&icon_color=58A6FF&text_color=8b949e&bg_color=00000000" />
-    <img height="140" src="https://github-readme-stats.vercel.app/api?username=peetwan&show_icons=true&hide_border=true&hide_title=true&count_private=true&include_all_commits=true&icon_color=2563eb&title_color=2563eb&text_color=4b5563&bg_color=00000000" alt="Peet's GitHub activity" />
+    <img height="140" src="https://github-readme-stats.vercel.app/api?username=peetwan&show_icons=true&hide_border=true&hide_title=true&count_private=true&include_all_commits=true&icon_color=2563eb&title_color=2563eb&text_color=4b5563&bg_color=00000000" alt="GitHub stats" />
   </picture>
 </div>
 
-## 📫 Connect
+## Say hi
 
-[`GitHub`](https://github.com/peetwan) &nbsp;·&nbsp; Thailand &nbsp;·&nbsp; always up to learn + build something with `AI + hardware`
+I'm on [GitHub](https://github.com/peetwan), based in Thailand, and always up for building something
+weird with AI and hardware.
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=0:A371F7,100:58A6FF" alt="" />
