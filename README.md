@@ -1,58 +1,45 @@
 <h1 align="center">Hi, I'm Peet 👋</h1>
 
 <p align="center">
-  <code>Chanut "Peet" Wannasarnmetha</code> · Builder from Thailand 🇹🇭 · UTC+7
+  <code>Chanut "Peet" Wannasarnmetha</code> · AI engineer & builder · Thailand 🇹🇭 · UTC+7
 </p>
 
 <p align="center">
-  I turn ideas into working things — fast. AI agents, edge-AI gadgets, and products that ship.<br/>
-  Simple over clever · on-device over cloud · and I learn every layer down to the metal.
+  Multi-agent AI systems, ML / MLOps, and edge-AI devices.<br/>
+  I ship things that are <em>real, measured, and on-device</em> — simple over clever, every layer understood.
 </p>
 
 ---
 
-## 🧠 What I build
+## 🧠 What I work on
 
-| | |
+- 🤖 `Multi-agent AI & LLM systems` — orchestrating specialised agents that plan, argue, and verify.
+- 🔬 `ML engineering & MLOps` — model compression, object detection, and benchmarks measured on real hardware.
+- 🔌 `Edge AI & IoT` — Arduino `UNO Q` / Jetson devices with on-device ML and privacy by design.
+- 💬 `Products for Thailand` — `LINE` / `LIFF` apps & bots, and tools aimed at real local problems.
+
+## 🚀 Featured work
+
+| Project | What it is |
 |---|---|
-| 🤖 AI agents & LLM systems | RAG + text-to-SQL agents, prompt-injection defense, role-based access, and serving open models (Qwen) on HPC. |
-| 🔌 Edge AI & IoT | Wellness & focus devices on `Arduino UNO Q` — on-device streaming ML, sensor fusion, privacy by design. |
-| 💬 Products for the Thai market | `LINE` / `LIFF` apps & bots — queueing, ordering, and everyday tools. |
-| 📈 Markets & automation | Trading dashboards and market-intelligence tooling. |
-| 🛠️ Dev tooling | AI-native CLI workflows and agent automation (Claude / Gemini). |
+| 🧭 [Hidden Siam](https://github.com/peetwan/travel_hack_04) | An 8-agent AI travel planner for Thailand, built against overtourism — agents argue, filter, and route across 91 hand-curated gems with live Thai-web search. `Next.js` · [live demo](https://travelhack04-copy-3-production.up.railway.app). |
+| 🗜️ [autofollowdown](https://github.com/peetwan/autofollowdown) | A one-API toolkit for compressing AI models — `quantization` · `pruning` · `distillation` — with a real benchmark that measures size, latency, and accuracy. No mocks; every number is measured. |
+| 🧾 [fahmai-enterprise-data-agent](https://github.com/peetwan/fahmai-enterprise-data-agent) | A two-tier enterprise-data agent: a deterministic SQL skill router with a `plan → execute → verify` ReAct fallback. RBAC + prompt-injection defense, SQLite/DuckDB, `Qwen3.6-27B` serving. |
+| 🔌 [senseflow](https://github.com/peetwan/senseflow) · [gutmagotchi](https://github.com/peetwan/gutmagotchi-stress-companion) | Edge-AI wellness devices on `Arduino UNO Q` — a focus/posture companion and a contactless stress detector (on-device streaming ML), each driving a live virtual pet. |
+| 🧠 [agOS](https://github.com/peetwan/agOS) | An "agentic OS" that gives the Gemini CLI + Obsidian permanent memory, a knowledge graph from `[[wikilinks]]`, and a logic-first conviction filter. |
 
 ## 🧭 How I work
 
-- `KISS` — simple, lightweight, no over-engineering.
+- `KISS` — simple and lightweight; I don't over-engineer.
+- `Real, not mocked` — benchmarks run on real models and real hardware, every number measured.
 - `Security & privacy first` — local-first, on-device, secrets stay secret.
-- `Learn in depth` — I document the *why* (ELI5) and keep study notes, not just the *what*.
-- `Ship it` — hackathon-paced, end-to-end, and tested.
-
-## 📌 Featured projects
-
-### 🧾 [fahmai-enterprise-data-agent](https://github.com/peetwan/fahmai-enterprise-data-agent)
-A two-tier enterprise-data agent — a deterministic SQL skill router with a `plan → execute → verify`
-ReAct fallback. RBAC + prompt-injection defense, SQLite/DuckDB backends, `Qwen3.6-27B` serving,
-SSE streaming, and a full EN/TH study course.
-
-### 🧘 [senseflow](https://github.com/peetwan/senseflow)
-A dual-brain (`STM32` + `Qualcomm`) Arduino companion that turns your focus & posture into a live
-virtual pet. Firmware → Python daemon → Streamlit dashboard over MessagePack RPC. Runs on a laptop
-with a mock bridge, backed by a 110-test suite.
-
-### 🐱 [gutmagotchi-stress-companion](https://github.com/peetwan/gutmagotchi-stress-companion)
-Contactless stress detection on `Arduino UNO Q` — on-device streaming ML (River) turns ambient +
-acoustic signals into a `0–100` stress index that drives Mochi the Tamagotchi's mood. Privacy by
-design: raw audio never leaves the board.
-
-> 🔎 More in my [repositories](https://github.com/peetwan?tab=repositories) — Jetson Nano
-> FPS-per-Watt research, LINE bots, and a string of domain hackathons.
+- `Learn every layer` — I document the *why* (ELI5) and keep study notes, then ship at hackathon pace.
 
 ## 🧰 Toolbox
 
-`Python` · `JavaScript / TypeScript` · `C++ / Arduino` · `LLMs · RAG · Agents` ·
-`DuckDB / SQLite` · `Streamlit · Node/Express · Phaser` · `Edge AI · River · BLE` ·
-`Slurm / HPC` · `LINE / LIFF` · `Claude Code · Gemini CLI`
+`Python` · `PyTorch` · `TypeScript / Next.js` · `C++ / Arduino` ·
+`Multi-agent · LLMs · RAG` · `Vercel AI SDK · Gemini · Claude` ·
+`DuckDB / SQLite` · `Edge AI · Jetson · River · BLE` · `LINE / LIFF` · `Obsidian`
 
 ## 📫 Connect
 
@@ -64,6 +51,6 @@ design: raw audio never leaves the board.
 ---
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=peetwan&show_icons=true&hide_border=true&count_private=true&include_all_commits=true" alt="Peet's GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=peetwan&layout=compact&hide_border=true&hide=html&langs_count=8" alt="Top languages" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=peetwan&show_icons=true&hide_border=true&count_private=true&include_all_commits=true" alt="Peet's GitHub stats" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=peetwan&layout=compact&hide_border=true&hide=html&langs_count=8" alt="Top languages" />
 </p>
