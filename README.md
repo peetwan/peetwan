@@ -98,6 +98,34 @@ just agreeing with me.
 
 ---
 
+## 🗂️ A few case studies (anonymized)
+
+> Real private / client work — names, brands, and products removed; the shape kept.
+
+### 💬 &nbsp;LINE order automation · a local retail business
+`Problem` &nbsp; orders were taken by hand in LINE group chats — slow, easy to miss, re-typed by staff.  
+`Approach` &nbsp; an LLM-powered LINE bot that parses free-text messages into structured orders and files them into a CMS.  
+`Outcome` &nbsp; order capture runs end-to-end; staff stopped copy-pasting and chasing missing details.
+
+### 💹 &nbsp;Crypto / DeFi portfolio cockpit · a trader
+`Problem` &nbsp; tracking a basket of positions across venues was manual and reactive.  
+`Approach` &nbsp; a dashboard that pulls live positions and surfaces exposure, signals, and risk in one place.  
+`Outcome` &nbsp; one glance instead of ten tabs — decisions got faster and calmer.
+
+### 🤖 &nbsp;Always-on research agent · my own workflow
+`Problem` &nbsp; daily market + web research and keeping notes/dashboards in sync ate the morning.  
+`Approach` &nbsp; AI research agents plus scheduled "glue" that refreshes data and syncs it into Notion / dashboards.  
+`Outcome` &nbsp; the research routine now runs itself and lands in one place.
+
+### ❤️ &nbsp;Weekend social-impact build · a hackathon
+`Problem` &nbsp; people going through a hard life transition face a scary, jargon-heavy process alone.  
+`Approach` &nbsp; an AI assistant that explains the options in plain language and auto-generates the documents they need.  
+`Outcome` &nbsp; a working prototype, demoed at the hackathon.
+
+<sub>📈 &nbsp;Hard numbers left out on purpose to protect clients — happy to walk through specifics in a conversation.</sub>
+
+---
+
 ## 🧭 How I learn & build
 
 - 🎯 `Learn by shipping` — if I don't know it yet, I build the thing until I do.
