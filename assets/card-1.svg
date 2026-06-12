@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200" font-family="'Segoe UI', Ubuntu, system-ui, -apple-system, sans-serif">
+  <title>A booking platform built around LINE — private</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#161b22"/>
+      <stop offset="1" stop-color="#1c2128"/>
+    </linearGradient>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#58A6FF"/>
+      <stop offset="0.55" stop-color="#3FB950"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="796" height="196" rx="16" fill="url(#bg)" stroke="url(#border)" stroke-width="2.5"/>
+
+  <g>
+    <rect x="30" y="42" width="20" height="15" rx="2.5" fill="#3FB950"/>
+    <path d="M34 42 V37 a6 6 0 0 1 12 0 V42" stroke="#3FB950" stroke-width="2.5" fill="none"/>
+    <circle cx="40" cy="49.5" r="1.8" fill="#161b22"/>
+  </g>
+
+  <text x="64" y="54" fill="#e6edf3" font-size="21" font-weight="600">A booking platform built around LINE</text>
+
+  <g font-size="12" font-weight="500">
+    <rect x="64"  y="70" width="68"  height="22" rx="11" fill="#30363d"/>
+    <text x="98"  y="85" fill="#adbac7" text-anchor="middle">private</text>
+    <rect x="140" y="70" width="100" height="22" rx="11" fill="#238636"/>
+    <text x="190" y="85" fill="#ffffff" text-anchor="middle">multi-tenant</text>
+    <rect x="248" y="70" width="84"  height="22" rx="11" fill="#0e7490"/>
+    <text x="290" y="85" fill="#ffffff" text-anchor="middle">real-time</text>
+  </g>
+
+  <g fill="#8b949e" font-size="14">
+    <text x="30" y="121">The one I've poured the most hours into — a multi-tenant platform where customers</text>
+    <text x="30" y="143">book and pay without ever leaving the app, and every shop gets its own branded</text>
+    <text x="30" y="165">page, calendar, dashboard, and analytics off one shared backend.</text>
+    <text x="30" y="187">The hard parts stay private. It's a real thing I'm taking somewhere.</text>
+  </g>
+</svg>

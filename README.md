@@ -69,36 +69,9 @@ real memory. It remembers my notes and my opinions, and pushes back instead of j
 Most of what I build is private. Two projects have eaten most of my year. I'll keep them nameless, but
 here's the shape of them.
 
-<table width="100%">
-<tr><td>
+<img width="100%" src="assets/card-1.svg" alt="A booking platform built around LINE — private, multi-tenant, real-time. A multi-tenant platform where customers book and pay without leaving the app; each shop gets its own page, calendar, dashboard, and analytics off one shared backend. The hard parts stay private." />
 
-### 🔒 &nbsp;A booking platform built around LINE
-
-![private](https://img.shields.io/badge/%F0%9F%94%92_private-30363d?style=flat-square) ![multi-tenant](https://img.shields.io/badge/multi--tenant-3FB950?style=flat-square) ![real-time](https://img.shields.io/badge/real--time-2DD4BF?style=flat-square)
-
-The one I've poured the most hours into. A multi-tenant platform where a customer can book and pay
-without ever leaving the app, and every shop gets its own branded page, calendar, dashboard, and
-analytics off one shared backend. The fun is all in the unglamorous parts — walling each shop's data
-off from the rest, holding a slot while someone's mid-checkout, checking payments, keeping things sane
-when a background job dies and has to retry. The product details I'm keeping to myself; it's a real
-thing I'm trying to take somewhere.
-
-</td></tr>
-</table>
-
-<table width="100%">
-<tr><td>
-
-### 🔒 &nbsp;An automated trading system
-
-![private](https://img.shields.io/badge/%F0%9F%94%92_private-30363d?style=flat-square) ![automated](https://img.shields.io/badge/automated-3FB950?style=flat-square) ![real-time](https://img.shields.io/badge/real--time-2DD4BF?style=flat-square) ![strategy classified](https://img.shields.io/badge/strategy-classified-30363d?style=flat-square)
-
-A multi-asset setup I run on a perps DEX. It's a small fleet of services that have to stay perfectly
-in sync — an execution engine, an analytics piece watching the market, bots that act on it, and live
-dashboards over the top, all real-time and deployed. I'll happily talk shop about the engineering: a
-pile of Python services and websockets not stepping on each other is harder than it sounds. The
-strategy and the signals behind it stay in the vault — that part's the whole point, and it's mine to
-keep. 🤐
+<img width="100%" src="assets/card-2.svg" alt="An automated trading system — private, automated, real-time, strategy classified. A multi-asset setup on a perps DEX: a real-time fleet of services (execution engine, analytics, bots, dashboards). The strategy and signals stay in the vault." />
 
 </td></tr>
 </table>
