@@ -32,6 +32,13 @@ Mostly I make things because something was bugging me and I wanted it to stop. A
 
 ## What I've built (the public stuff)
 
+### [ThaiEDA](https://github.com/peetwan/thaieda) · [PyPI](https://pypi.org/project/thaieda/)
+One-line AutoEDA and smart cleaning built for Thai and mixed-language data. `run(df)` generates HTML
+reports with charts, missing-value analysis, outlier detection, and correlation matrices — all in Thai.
+Smart cleaning handles Buddhist-era dates, Thai numerals, mojibake (ftfy), and Thai tokenization
+(pythainlp). **1,000+ tests**, CI/CD with ruff + pytest across Python 3.11–3.13. v2.3.0 on PyPI.
+*Python, pandas, scikit-learn, pythainlp, hatchling.*
+
 ### [Hidden Siam](https://github.com/peetwan/travel_hack_04) · [live demo](https://travelhack04-copy-3-production.up.railway.app)
 I was tired of generic "top 10 places" travel lists, so I made a planner where eight AI agents do the
 arguing for you. You give it the kind of trip you want, and they go back and forth over ~91 spots and
@@ -58,7 +65,7 @@ I got sick of re-explaining myself to AI tools every session, so I gave the Gemi
 real memory. It remembers my notes and my opinions, and pushes back instead of just agreeing with me.
 
 <details>
-<summary>a few more — Kaggle templates, object detection, Jetson edge notes…</summary>
+<summary>older stuff — Kaggle templates, object detection, Jetson edge notes…</summary>
 
 <br/>
 
