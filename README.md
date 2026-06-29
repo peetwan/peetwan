@@ -1,14 +1,21 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:58A6FF,100:3FB950&text=Peet%20Wannasarnmetha&fontSize=44&fontColor=ffffff&fontAlignY=36&desc=Super%20AI%20Engineer%20SS06%20%7C%20Hackathon%20builder%20from%20Thailand&descSize=17&descAlignY=58&animation=fadeIn" alt="Peet Wannasarnmetha" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:e8615f,100:9b2233&text=Chanut%20Wannasarnmetha&fontSize=44&fontColor=efe6cf&fontAlignY=36&desc=Applied%20AI%20Engineer%20%2F%20Builder%20%C2%B7%20Thailand&descSize=17&descAlignY=58&animation=fadeIn" alt="Chanut Wannasarnmetha" />
 
 <div align="center">
 
-<a href="https://github.com/peetwan">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=21&duration=2600&pause=900&center=true&vCenter=true&width=640&height=42&color=3FB950&lines=Super+AI+Engineer+SS06;Hackathon+builder+from+Thailand;I+learn+by+shipping;AI+is+my+study+partner" alt="about me" />
+<a href="https://chanut.dev">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=21&duration=2600&pause=900&center=true&vCenter=true&width=640&height=42&color=e8615f&lines=Applied+AI+Engineer+%2F+Builder;I+learn+by+shipping;AI+is+my+study+partner;Based+in+Thailand" alt="about me" />
 </a>
 
 <p>
-  🇹🇭 &nbsp;Builder from Thailand &nbsp;·&nbsp; UTC+7<br/>
-  <sub>Not a trained engineer — I just like figuring things out and making them work.</sub>
+  🇹🇭 &nbsp;Applied AI Engineer / Builder &nbsp;·&nbsp; UTC+7<br/>
+  <sub>Not a classically trained ML engineer. I build things because something was bugging me and I wanted it to stop.</sub>
+</p>
+
+<p>
+  <a href="https://chanut.dev">🌐 chanut.dev</a> &nbsp;·&nbsp;
+  <a href="https://cv.chanut.dev">📄 CV</a> &nbsp;·&nbsp;
+  <a href="https://github.chanut.dev">💻 GitHub</a> &nbsp;·&nbsp;
+  <a href="https://fb.chanut.dev">Facebook</a>
 </p>
 
 </div>
@@ -17,13 +24,11 @@
 
 ## About me
 
-I got into Super AI Engineer (SS06), and that pulled me into a long run of hackathons. I'm not a
-trained ML person. I know the basics and work out the rest as I go, usually with an AI next to me to
-explain the parts I'm missing and help me build.
+I'm not a classically trained ML engineer. I build things because something was bugging me and I wanted it to stop, figuring out the parts I'm missing as I go. Most of what I make ships: an open-source package, production storefronts, and a multi-tenant SaaS.
 
-Mostly I make things because something was bugging me and I wanted it to stop. A lot of that stays
-private — small tools for myself, experiments I'm still poking at. The public repos below are just
-the parts I'm happy to show.
+I got into Super AI Engineer (SS06), and that pulled me into a long run of hackathons. I know the basics and work out the rest as I go, usually with an AI next to me to explain the parts I'm missing and help me build.
+
+Mostly I make things because something was bugging me and I wanted it to stop. A lot of that stays private — small tools for myself, experiments I'm still poking at. The public repos below are just the parts I'm happy to show.
 
 ## What I've built (the public stuff)
 
@@ -92,7 +97,7 @@ keep things on-device when I can.
 </div>
 
 <p align="center">
-  <sub>also: <code>LLMs / agents / RAG</code> · <code>Vercel AI SDK</code> · <code>DuckDB</code> · <code>edge AI · Jetson · BLE</code> · <code>LINE / LIFF</code> · <code>Gemini CLI · Claude Code</code></sub>
+  <sub>also: <code>LLMs / agents / RAG</code> · <code>Vercel AI SDK</code> · <code>DuckDB</code> · <code>edge AI · Jetson · BLE</code> · <code>LINE / LIFF</code> · <code>Gemini CLI · Claude Code · Cursor · Antigravity · Hermes Agents</code></sub>
 </p>
 
 ## Activity
@@ -106,14 +111,23 @@ keep things on-device when I can.
   <br/><br/>
 
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=peetwan&hide_border=true&background=00000000&ring=3FB950&fire=3FB950&currStreakLabel=3FB950&currStreakNum=e6edf3&sideNums=e6edf3&sideLabels=8b949e&dates=8b949e&stroke=30363d" />
-    <img height="150" src="https://streak-stats.demolab.com/?user=peetwan&hide_border=true&background=00000000&ring=2DA44E&fire=2DA44E&currStreakLabel=2DA44E&currStreakNum=24292f&sideNums=24292f&sideLabels=57606a&dates=57606a&stroke=d0d7de" alt="contribution streak" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=peetwan&hide_border=true&background=00000000&ring=e8615f&fire=e8615f&currStreakLabel=e8615f&currStreakNum=efe6cf&sideNums=efe6cf&sideLabels=9a948a&dates=9a948a&stroke=2c2822" />
+    <img height="150" src="https://streak-stats.demolab.com/?user=peetwan&hide_border=true&background=00000000&ring=e8615f&fire=e8615f&currStreakLabel=e8615f&currStreakNum=24292f&sideNums=24292f&sideLabels=57606a&dates=57606a&stroke=d0d7de" alt="contribution streak" />
   </picture>
 </div>
 
 ## Say hi
 
-I'm on [GitHub](https://github.com/peetwan), based in Thailand, and always up for building something
-weird with AI and hardware.
+I'm based in Thailand and always up for building something weird with AI and hardware.
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=0:3FB950,100:58A6FF" alt="" />
+<div align="center">
+
+[🌐 chanut.dev](https://chanut.dev) &nbsp;·&nbsp;
+[📄 CV](https://cv.chanut.dev) &nbsp;·&nbsp;
+[📧 Email](mailto:peet.wannasarnmetha@gmail.com) &nbsp;·&nbsp;
+[💻 GitHub](https://github.chanut.dev) &nbsp;·&nbsp;
+[Facebook](https://fb.chanut.dev)
+
+</div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=0:9b2233,100:e8615f" alt="" />
