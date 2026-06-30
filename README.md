@@ -76,6 +76,10 @@ real memory. It remembers my notes and my opinions, and pushes back instead of j
 
 </details>
 
+## Open source contributions
+
+- **[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent/pull/55545)** — co-author on PR #55545 (`fix(tui_gateway): prevent Desktop WS disconnect under GIL pressure`). The Desktop WebSocket was dropping during long, GIL-heavy agent turns because the asyncio event loop was starved past the 20s ping deadline. My fix was salvaged from earlier PRs (#51841, #54287) and merged into `main` with authorship preserved via `AUTHOR_MAP`.
+
 ## 🔒 The private stuff (where most of my time goes)
 
 Most of what I build is private. Two projects have eaten most of my year. I'll keep them nameless, but
